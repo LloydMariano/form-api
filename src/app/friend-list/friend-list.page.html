@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Friend list</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content class="ion-padding">
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Course</th>
+        <th scope="col">School</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of studentsData" class="data">
+        <td>{{ item.name }}</td>
+        <td>{{ item.course }}</td>
+        <td>{{ item.school }}</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="button">
+  <ion-button [routerLink]="['/profile']">Back</ion-button>
+</div>
+</ion-content>

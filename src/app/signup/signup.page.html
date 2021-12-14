@@ -1,0 +1,51 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <a href="\home"><ion-icon name="arrow-back" class="arrowback"></ion-icon></a>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="icon">
+    <ion-icon name="person-outline" class="avatar"></ion-icon>
+    <h1 class="ion-text-center">Signup</h1>
+  </div>
+
+  <form [formGroup]="profileForm">
+    <ion-list>
+      <ion-item>
+    <ion-label position="floating">First Name </ion-label>
+    <ion-input  type="text" formControlName="firstname"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Last Name </ion-label>
+    <ion-input  type="text" formControlName="lastname"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Username </ion-label>
+    <ion-input  type="text" formControlName="username"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Password </ion-label>
+    <ion-input  type="text" formControlName="password"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label positio-n="floating">Email Address</ion-label>
+    <ion-input type="text" formControlName="emailadd" ></ion-input>
+    </ion-item>
+
+    <ion-item  >  
+      <ion-label position="floating">Age</ion-label>  
+      <ion-input type="number" formControlName="age" ></ion-input>
+      </ion-item> 
+
+  </ion-list>
+  <ion-button (click)="submit()" color="primary" class="btn-sub">signup</ion-button>
+  <ion-button (click)="login()" color="success" class="btn-sub">Already have account?</ion-button>
+  </form>
+  
+</ion-content>

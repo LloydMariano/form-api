@@ -1,0 +1,58 @@
+{
+  "info": [
+    {
+      "name": "Jerome Pangan",
+      "course": "BSIT",
+      "school": "Gordon College",
+      "id": 1
+    },
+    {
+      "name": "Arvin Dela Cruz",
+      "course": "BSCS",
+      "school": "Gordon College",
+      "id": 2
+    },
+    {
+      "name": "Chan Dela Cruz",
+      "course": "BSEMC",
+      "school": "Gordon College",
+      "id": 3
+    },
+    {
+      "name": "Kaimo Himenez",
+      "course": "ACT",
+      "school": "Gordon College",
+      "id": 4
+    },
+    {
+      "name": "Melvin Muega",
+      "course": "BSIT",
+      "school": "Gordon College",
+      "id": 5
+    },
+    {
+      "name": "Jackie Chan",
+      "course": "BSIT",
+      "school": "Gordon College",
+      "id": 5
+    },
+    {
+      "name": "Lebron James",
+      "course": "BSCS",
+      "school": "Gordon College",
+      "id": 5
+    },
+    {
+      "name": "Jet Lee",
+      "course": "BSEMC",
+      "school": "Gordon College",
+      "id": 5
+    },
+    {
+      "name": "Bruce Lee",
+      "course": "ACT",
+      "school": "Gordon College",
+      "id": 5
+    }
+  ]
+}
